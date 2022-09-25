@@ -9,7 +9,7 @@ from googleapiclient import discovery
 #Id = '8135489781570160332'
 Id=input("Enter Your Blogger ID: ")
 """I have set my account for blogger
-If you want to use your account get .json file from google developer api and set the file name in 'CLIENT_SECRET' 
+If you want to use your account get .storage file(API permision) from google developer api and set the file name in 'STORAGE' 
 variable"""
 CLIENT_SECRET = 'client_secret.json'
 SCOPE = 'https://www.googleapis.com/auth/blogger'
